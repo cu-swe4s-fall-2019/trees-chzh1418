@@ -14,4 +14,4 @@ before_install:
     - git submodule update --init 
 script:
     - pycodestyle *.py
-    - bash .sh
+    - bash *.sh
