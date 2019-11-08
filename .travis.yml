@@ -14,5 +14,5 @@ before_install:
     - git submodule update --init 
 script:
     - pycodestyle *.py
-    - bash *.sh
+    - bash test_insert_key_value_paires.sh
     - python test_binary_tree.py
