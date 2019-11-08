@@ -22,5 +22,19 @@ python insert_key_value_paires.py --data_structure 'hash' --dataset sorted.txt -
 python insert_key_value_paires.py --data_structure 'binary_tree' --dataset sorted.txt --key_value 10000
 python insert_key_value_paires.py --data_structure 'avl_tree' --dataset sorted.txt --key_value 10000
 ```
-## Results
+To run plot_figures.py
+```
+python plot_figures.py --dataset rand.txt --key_value 2000
+python plot_figures.py --dataset sorted.txt --key_value 2000
+```
 
+## Results
+For radom keys
+![](rand.txt_Insert_time.png)
+![](rand.txt_Search_time.png)
+![](rand.txt_Search_nonexist_time.png)
+
+For sorted keys
+![](sorted.txt_Insert_time.png)
+![](sorted.txt_Search_time.png)
+![](sorted.txt_Search_nonexist_time.png)
