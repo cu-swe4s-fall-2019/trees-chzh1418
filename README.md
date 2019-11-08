@@ -50,14 +50,24 @@ For sorted keys
 
 ## Conclusion
 For random keys:
+
     The AVL tree structure takes the longest to insert key value paires. As the number of keys increase, the insertion gets slower and slower compare to other data structure.
+
     To search for existing keys, all there structures perform comparably.
+
     To search for non-existing keys, hash table structure takes longer to find. As the number of keys increase, the difference grows bigger compare to the other two.
+
+    
 For sorted keys:
+
     Similar to randome key, the AVL tree structure also takes longer to insert.
+
     To search for existing keys, it looks like binary tree performs worst.
+
     To search for non-existing keys, again hash table takes longer.
 
+
 To compare sorted and random keys:
+
     Within the range of 0 to 2000 keys, it doesn't seem like there is a significant difference among sorted and random keys in terms of insertion and search.
 
