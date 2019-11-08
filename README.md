@@ -1,7 +1,7 @@
 # Trees
 Understanding the performance difference between hash tables and trees(binary tree and avl tree)
 ## Continuous Integration Status
-
+[![Build Status](https://travis-ci.com/cu-swe4s-fall-2019/trees-chzh1418.svg?branch=master)](https://travis-ci.com/cu-swe4s-fall-2019/trees-chzh1418)
 ## Required packages
 * os
 * sys
